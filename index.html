@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+ <center >
+   <div class="wholething">
+   
+   </div>
+   <div class="main">
+    <div class="section">
+        <button onclick="sum()">+</button>
+    <button onclick="subtract()" class="subtract">-</button>
+    <br>
+    <button onclick="multiplication()" class="multiplication">*</button>
+    <button onclick="division()" class="division">/</button>
+    </div>
+    <div class="section2">
+        <h1 id="result"></h1>
+    </div>
+   </div>
+</center>
+<h2 class="intro">Your Answer Is  </h2>
+<h3>↓</h3>
+<div class="round"></div>
+<div class="anchor">
+<a href="index.html" class="a"><div class="Refresh">Refresh</div></a>
+
+</div>
+<script>
+        function sum() {
+                var num1 = Number(prompt("enter your first number"))
+                var num2 = Number(prompt("enter your second number"))
+                var answer = num1 + num2
+                document.getElementById("result").innerHTML = answer
+            
+        }
+        function subtract() {
+                var num1 = Number(prompt("enter your first number"))
+                var num2 = Number(prompt("enter your second number"))
+                var answer = num1 - num2
+                document.getElementById("result").innerHTML = answer
+            
+        }
+        function multiplication() {
+                var num1 = Number(prompt("enter your first number"))
+                var num2 = Number(prompt("enter your second number"))
+                var answer = num1 * num2
+                document.getElementById("result").innerHTML = answer
+            
+        }
+        function division() {
+                var num1 = Number(prompt("enter your first number"))
+                var num2 = Number(prompt("enter your second number"))
+                var answer = num1 / num2
+                document.getElementById("result").innerHTML = answer+'cm'
+            
+        }
+    </script>
+    
+</body>
+</html>

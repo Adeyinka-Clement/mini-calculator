@@ -1,0 +1,118 @@
+*{
+    /* border: 1px solid black; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    padding: 35px;
+    border-radius: 30%;
+    margin-bottom: 30px;
+    
+    background-color: rgb(138, 98, 82);
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 20px;
+    border: none;
+    color: rgb(185, 182, 182);
+    border: 2px solid rgb(56, 17, 2) ;
+}
+.wholething{
+    background-color: antiquewhite;
+    height: 550px;
+    width: 700px;
+    border-radius: 10%;
+    margin-top: 70px;
+    
+    
+}
+.section2{
+ margin-top: 200px !important;
+ margin-left: 100px;
+ }
+.main{
+    display: flex !important;
+    margin-top: -500px;
+}
+h1{
+    font-size: 110px;
+    font-weight: 900;
+    color: rgb(56, 17, 2); 
+    display: inline;
+    text-decoration: underline;
+    
+}
+.section{
+    margin-top: 70px;
+    margin-left: 400px;
+}
+.intro{
+    margin-top: -300px;
+    margin-left: 700px !important;
+    /* text-decoration: underline; */
+    font-size: 40px;  
+    color: rgb(121, 77, 59);  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    margin-top: 3px;
+    margin-left: 810px !important;
+    /* text-decoration: underline; */
+    font-size: 40px;  
+    color: rgb(121, 77, 59);  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.subtract{
+    padding-left: 39px;
+    padding-right: 39px;
+}
+.multiplication{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.division{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+    
+
+}
+.Refresh{
+    background-color: rgb(121, 77, 59);
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 20%;
+    color: rgb(185, 182, 182);
+    position: relative;
+    /* top: 160px; */
+    margin-left: 900px;
+    font-weight: 600;
+    z-index: 9 !important;
+}
+.a{
+    display: inline !important;
+    position: relative;
+    top: 150px;
+    
+}
+.round{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(121, 77, 59);
+    border-radius: 100%;
+    position: relative;
+    left: 520px;
+}
+.anchor{
+    width: 50px;
+    z-index: 99999999999;
+    display: inline !important;
+
+}
